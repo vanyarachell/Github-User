@@ -1,0 +1,123 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabTextAppearance">@style/TabTextAppearance</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+    </style>
+
+    <style name="TabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">#e6e6e6</item>
+        <item name="android:textStyle">bold</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+    <style name="TextXxxSmallWhite">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/font_xxxs</item>
+    </style>
+
+    <style name="TextXxSmallWhite">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/font_xxs</item>
+    </style>
+
+
+    <style name="TextXSmallWhite">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/font_xs</item>
+    </style>
+
+    <style name="TextSmallWhite">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/font_s</item>
+    </style>
+
+    <style name="TextMediumWhite">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/font_m</item>
+    </style>
+
+
+    <style name="TextXxxSmallGray">
+        <item name="android:textColor">@color/grey_60</item>
+        <item name="android:textSize">@dimen/font_xxxs</item>
+    </style>
+
+    <style name="TextXxSmallGray">
+        <item name="android:textColor">@color/grey_60</item>
+        <item name="android:textSize">@dimen/font_xxs</item>
+    </style>
+
+
+    <style name="TextXSmallGray">
+        <item name="android:textColor">@color/grey_60</item>
+        <item name="android:textSize">@dimen/font_xs</item>
+    </style>
+
+    <style name="TextSmallGray">
+        <item name="android:textColor">@color/grey_60</item>
+        <item name="android:textSize">@dimen/font_s</item>
+    </style>
+
+    <style name="TextMediumGray">
+        <item name="android:textColor">@color/grey_60</item>
+        <item name="android:textSize">@dimen/font_m</item>
+    </style>
+
+
+    <style name="TextXxxSmallBlack">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/font_xxxs</item>
+    </style>
+
+    <style name="TextXxSmallBlack">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/font_xxs</item>
+    </style>
+
+
+    <style name="TextXSmallBlack">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/font_xs</item>
+    </style>
+
+    <style name="TextSmallBlack">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/font_s</item>
+    </style>
+
+    <style name="TextMediumBlack">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/font_m</item>
+    </style>
+
+    <style name="TextLargeBlack">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/font_l</item>
+    </style>
+
+    <style name="AppNoBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+</resources>
